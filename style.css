@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 8rem; */
+}
+
+.top {
+    background-image: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
+    padding-top: 5rem;
+}
+
+#header {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-name {
+    position: relative;
+}
+
+#computer-desk {
+    width: 30rem;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#name {
+    position: absolute;
+    bottom: .5rem;
+    left: 6rem;
+    color: #27296d;
+    background-color: #a393eb;
+    padding: .5rem;
+    border-radius: 25px;
+}
+
+#about-me-info {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #27296d;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 2rem;
+}
+
+.devicon-github-original-wordmark {
+    color: #27296d !important;
+    font-size: 40px;
+    margin-left: 85%;
+}
+
+.devicon-github-original-wordmark:hover {
+    color: #a393eb !important;
+}
+
+
+
+
+
