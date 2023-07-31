@@ -84,6 +84,7 @@ p {
     flex-wrap: wrap;
     color: #27296d;
     justify-content: space-around;
+    gap: 1.5rem;
 }
 
 .project-card {
@@ -91,6 +92,8 @@ p {
     border: 1px solid #27296d;
     padding: 1rem;
     box-shadow: #27296d 0px 1px 2px 0px, #27296d 0px 1px 3px 1px;
+    position: relative;
+    margin-top: 2rem;
 }
 
 .name {
@@ -101,7 +104,11 @@ p {
 
 .image {
     width: 300px;
-    height: 225px;
+    height: 200px;
+}
+
+.description {
+    margin-bottom: 3rem;
 }
 
 .icon-container {
@@ -109,6 +116,9 @@ p {
     width: 1rem;
     margin-top: .5rem;
     margin-left: 70%;
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
 }
 
 .material-symbols-outlined {
@@ -128,6 +138,12 @@ p {
 .devicon-github-original:hover,
 .material-symbols-outlined:hover {
     color: #a393eb !important;
+}
+
+.footer {
+    background-color: #27296d;
+    color: white;
+    
 }
 
 
