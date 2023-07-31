@@ -57,13 +57,79 @@ p {
 
 .devicon-github-original-wordmark {
     color: #27296d !important;
-    font-size: 40px;
-    margin-left: 85%;
+    margin-top:.2rem;
+    font-size: 3rem;
+    margin-left: 90%;
+    text-decoration: none;
 }
 
 .devicon-github-original-wordmark:hover {
     color: #a393eb !important;
 }
+
+.projects-container-title {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27296d;
+    text-decoration: underline;
+}
+
+.projects-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #27296d;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 300px;
+    border: 1px solid #27296d;
+    padding: 1rem;
+    box-shadow: #27296d 0px 1px 2px 0px, #27296d 0px 1px 3px 1px;
+}
+
+.name {
+   margin-bottom: -1.5rem;
+   text-decoration: underline;
+   font-size: 2rem;;
+}
+
+.image {
+    width: 300px;
+    height: 225px;
+}
+
+.icon-container {
+    display: flex;
+    width: 1rem;
+    margin-top: .5rem;
+    margin-left: 70%;
+}
+
+.material-symbols-outlined {
+    color: #27296d !important;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.devicon-github-original {
+    color: #27296d !important;
+    margin-top:.2rem;
+    font-size: 2rem;
+    margin-left: 85%;
+    text-decoration: none;
+}
+
+.devicon-github-original:hover,
+.material-symbols-outlined:hover {
+    color: #a393eb !important;
+}
+
 
 
 

@@ -1,4 +1,4 @@
-function createProjectCards(image, name, gitRepo, gitPage, description) {
+function createProjectCards(image, name, description, gitPage, title1, gitRepo, title2) {
     //get project container to attach cards to//
     let projectsContainer = document.querySelector(".projects-container");
 
@@ -19,25 +19,33 @@ function createProjectCards(image, name, gitRepo, gitPage, description) {
     projectName.innerText = name;
     projectCard.appendChild(projectName);
 
-    //attach projectGitRepo and append it to the card//
-    let projectGitRepo = document.createElement("i");
-    projectGitRepo.classList.add("devicon-github-original");
-    // projectGitRepo.innerHTML = "devicon-github-original";
-    projectGitRepo.setAttribute("href", gitRepo);
-    projectCard.appendChild(projectGitRepo);
-
-    //attach gitPage and append it to the card//
-    let projectGitPage = document.querySelector("span");
-    projectGitPage.classList.add("material-symbols-outlined");
-    // projectGitPage.innerHTML = open_in_new
-    projectGitPage.setAttribute("href", gitPage);
-    projectCard.appendChild(projectGitPage);
-
     //attach description and append to card//
     let projectDescription = document.createElement("p");
     projectDescription.classList.add("description");
     projectDescription.innerText = description
     projectCard.appendChild(projectDescription);
+
+    //create a flex container for icons and attach it to the projectCard//
+    let iconContainer = document.createElement("div");
+    iconContainer.classList.add("icon-container");
+    projectCard.appendChild(iconContainer);
+
+    //attach gitPage and append it to the card//
+    let projectGitPage = document.createElement("a");
+    projectGitPage.classList.add("material-symbols-outlined");
+    //  projectGitPage.innerText = "Play the Battleship Game!"
+    projectGitPage.innerHTML = "open_in_new"
+    projectGitPage.setAttribute("href", gitPage);
+    projectGitPage.setAttribute("title", title1);
+    iconContainer.appendChild(projectGitPage);
+
+    //attach projectGitRepo and append it to the card//
+    let projectGitRepo = document.createElement("a");
+    projectGitRepo.classList.add("devicon-github-original");
+    // projectGitRepo.innerHTML = "devicon-github-original";
+    projectGitRepo.setAttribute("href", gitRepo);
+    projectGitRepo.setAttribute("title", title2);
+    iconContainer.appendChild(projectGitRepo);
 
     return projectCard
 }
@@ -45,8 +53,9 @@ function createProjectCards(image, name, gitRepo, gitPage, description) {
 
 function populateProjectCard() {
     //put the data in the cards//
-   createProjectCards("images/battleship.png", "Battleship", "https://github.com/Amiriel01/Battleship", "https://amiriel01.github.io/Battleship", "Users can play a game of Battleship with a friend or against the computer. Players place ships themselves or randomize them. The first player to sink all five of the enemy ships wins the game!")
+    createProjectCards("images/battleship.png", "Battleship", "Users can play a game of Battleship with a friend or against the computer. Players place ships themselves or randomize them. The first player to sink all five of the enemy ships wins the game!", "https://amiriel01.github.io/Battleship", "Click the link to play Battleship!", "https://github.com/Amiriel01/Battleship", "Click the link to visit the Battleship GitHub repository.")
 
+    createProjectCards("images/battleship.png", "Battleship", "Users can play a game of Battleship with a friend or against the computer. Players place ships themselves or randomize them. The first player to sink all five of the enemy ships wins the game!", "https://amiriel01.github.io/Battleship", "Click the link to play Battleship!", "https://github.com/Amiriel01/Battleship", "Click the link to visit the Battleship GitHub repository.")
 }
 
 populateProjectCard();
