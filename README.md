@@ -2,7 +2,7 @@
 
 **Objective**
 
-I created the Portfolio Template to use at a later time when I start looking for employement. This is a working website portfolio that I will add new projects to as I create them. 
+I created the Portfolio Template to keep all my projects in a central website location. This is a working website portfolio that I will add new projects to as I create them. 
 
 ***Images***
 
