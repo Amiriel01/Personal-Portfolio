@@ -1,5 +1,4 @@
 # Portfolio-Template
-Work in Progress
 
 **Objective**
 
