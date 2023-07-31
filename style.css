@@ -57,7 +57,7 @@ p {
 
 .devicon-github-original-wordmark {
     color: #27296d !important;
-    margin-top:.2rem;
+    margin-top: .2rem;
     font-size: 3rem;
     margin-left: 90%;
     text-decoration: none;
@@ -97,9 +97,10 @@ p {
 }
 
 .name {
-   margin-bottom: -1.5rem;
-   text-decoration: underline;
-   font-size: 2rem;;
+    margin-bottom: -1.5rem;
+    text-decoration: underline;
+    font-size: 2rem;
+    ;
 }
 
 .image {
@@ -129,7 +130,7 @@ p {
 
 .devicon-github-original {
     color: #27296d !important;
-    margin-top:.2rem;
+    margin-top: .2rem;
     font-size: 2rem;
     margin-left: 85%;
     text-decoration: none;
@@ -143,11 +144,39 @@ p {
 .footer {
     background-color: #27296d;
     color: white;
-    
+    display: flex;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
+.contact-info-container {
+    width: 30%;
+}
 
+#contact-title {
+    font-size: 3rem;
+}
 
+.phone-container,
+.email-container {
+    display: flex;
+    align-items: center;
+}
 
+.phone,
+.email,
+.footer-icon {
+    color: white !important;
+}
 
+.footer-icon {
+    margin-left: 75% !important;
+}
 
+.phone,
+.email {
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
