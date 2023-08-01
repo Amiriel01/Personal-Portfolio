@@ -23,4 +23,4 @@ The footer of the portfolio has a little information, an area for me to add cont
 
 Credits:
 
-1. Computer Desk Images: https://www.pexels.com  Author: Adrienne Andersen
+Computer Desk Images: https://www.pexels.com  Author: Adrienne Andersen
