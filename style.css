@@ -17,7 +17,7 @@
 #header {
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +29,7 @@
 }
 
 #computer-desk {
+    margin-bottom: 0rem;
     width: 30rem;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -49,6 +50,7 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     color: #27296d;
+    width: 59%;
 }
 
 p {
