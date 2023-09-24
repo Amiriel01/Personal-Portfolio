@@ -57,6 +57,8 @@ function createProjectCards(image, name, description, gitPage, title1, gitRepo, 
 
 function populateProjectCard() {
     //put the data in the cards//
+    createProjectCards("images/cvapp.png", "CV Application Creator", "Users can use this React app to creat their CV when applying for jobs. The CV that is entered in the form will update to the CV page on submitting each section", "https://amiriel01-cv-app.netlify.app/", "Click the link to create your own CV.", "https://github.com/Amiriel01/cv-application", "Click the link to visit the CV Application Creator GitHub repository.")
+
     createProjectCards("images/battleship.png", "Battleship", "Users can play a game of Battleship with a friend or against the computer. Players place ships themselves or randomize them. The first player to sink all five of the enemy ships wins the game!", "https://amiriel01.github.io/Battleship", "Click the link to play Battleship!", "https://github.com/Amiriel01/Battleship", "Click the link to visit the Battleship GitHub repository.")
 
     createProjectCards("images/knights-travails.png", "Knights Travails", "Use the Knights Travails tool to increase your chess knowledge. Move the knight anywhere on the board to see the shortest path between locations.", "https://amiriel01.github.io/Knights-Travails", "Click the link to explore Knigts Travails!", "https://github.com/Amiriel01/Knights-Travails", "Click the link to visit the Knights Travails GitHub repository.")
