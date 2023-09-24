@@ -57,7 +57,11 @@ function createProjectCards(image, name, description, gitPage, title1, gitRepo, 
 
 function populateProjectCard() {
     //put the data in the cards//
-    createProjectCards("images/cvapp.png", "CV Application Creator", "Users can use this React app to creat their CV when applying for jobs. The CV that is entered in the form will update to the CV page on submitting each section", "https://amiriel01-cv-app.netlify.app/", "Click the link to create your own CV.", "https://github.com/Amiriel01/cv-application", "Click the link to visit the CV Application Creator GitHub repository.")
+    createProjectCards("images/matching.png", "Memory Check Game", "This game features four pages for players to view, the loading, game mode selection, game play, and winner screens. Players can choose easy, medium, and hard modes to select the amounts of card each play through.", "https://hogwarts-memory-check.netlify.app/", "Click the link to play the Memory Check Game!", "https://github.com/Amiriel01/Memory-Check-Game", "Click the link to visit the Memory Check Game GitHub repository.")
+
+    createProjectCards("images/matching.png", "Memory Check Game", "This game features four pages for players to view, the loading, game mode selection, game play, and winner screens. Players can choose easy, medium, and hard modes to select the amounts of card each play through.", "https://hogwarts-memory-check.netlify.app/", "Click the link to play the Memory Check Game!", "https://github.com/Amiriel01/Memory-Check-Game", "Click the link to visit the Memory Check Game GitHub repository.")
+
+    createProjectCards("images/cvapp.png", "CV Application Creator", "Users can use this React app to creat their CV when applying for jobs. The CV information that is entered in the form will update to the CV creation page on submitting each section", "https://amiriel01-cv-app.netlify.app/", "Click the link to create your own CV.", "https://github.com/Amiriel01/cv-application", "Click the link to visit the CV Application Creator GitHub repository.")
 
     createProjectCards("images/battleship.png", "Battleship", "Users can play a game of Battleship with a friend or against the computer. Players place ships themselves or randomize them. The first player to sink all five of the enemy ships wins the game!", "https://amiriel01.github.io/Battleship", "Click the link to play Battleship!", "https://github.com/Amiriel01/Battleship", "Click the link to visit the Battleship GitHub repository.")
 
